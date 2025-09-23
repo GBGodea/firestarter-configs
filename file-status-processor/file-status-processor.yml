@@ -1,0 +1,12 @@
+mongodb:
+  uri: mongodb://localhost:27017
+  database: file_status_db
+
+kafka:
+  bootstrap-servers: localhost:9092
+  topic:
+    status: file-status-topic
+
+file:
+  status:
+    max-retries: 3
