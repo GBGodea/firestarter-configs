@@ -11,7 +11,6 @@ kafka:
   bootstrap-servers: localhost:9092
   topic:
     upload: file-upload-topic
-    status: file-status-topic
 
 file:
   validation:

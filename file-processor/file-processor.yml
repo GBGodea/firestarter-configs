@@ -1,8 +1,8 @@
 kafka:
   bootstrap-servers: localhost:9092
   topic:
-    upload: upload-topic
-    status: status-topic
+    upload: file-upload-topic
+    status: file-status-topic
 
 logging:
   level:
