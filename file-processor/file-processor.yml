@@ -1,0 +1,20 @@
+kafka:
+  bootstrap-servers: localhost:9092
+  topic:
+    upload: upload-topic
+    status: status-topic
+
+logging:
+  level:
+    com.godea.file_processor: DEBUG
+    org.springframework.cloud.stream: DEBUG
+    org.apache.kafka: INFO
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  endpoint:
+    health:
+      show-details: always
