@@ -3,7 +3,7 @@ mongodb:
   database: file_status_db
 
 kafka:
-  bootstrap-servers: localhost:9092
+  bootstrap-servers: kafka1:9092
   topic:
     status: file-status-topic
 
