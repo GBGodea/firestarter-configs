@@ -1,7 +1,8 @@
-data:
-  mongodb:
-    uri: mongodb://mongodb:27017
-    database: file_status_db
+spring:
+  data:
+    mongodb:
+      uri: mongodb://mongodb:27017
+      database: file_status_db
 
 kafka:
   bootstrap-servers: kafka1:9092
